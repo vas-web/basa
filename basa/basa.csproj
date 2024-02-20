@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="businessapplication_database_database_accepteitheracceptthedatabase_connect_connectdatabase_negocios_aplicacion_basededato_2310.ico" />
+    <None Remove="png-transparent-wiring-diagram-computer-icons-electrical-wires-cable-computer-network-wires-miscellaneous-computer-network-electrical-wires-cable.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.3.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="businessapplication_database_database_accepteitheracceptthedatabase_connect_connectdatabase_negocios_aplicacion_basededato_2310.ico" />
+    <Resource Include="png-transparent-wiring-diagram-computer-icons-electrical-wires-cable-computer-network-wires-miscellaneous-computer-network-electrical-wires-cable.png" />
+  </ItemGroup>
+
+</Project>
